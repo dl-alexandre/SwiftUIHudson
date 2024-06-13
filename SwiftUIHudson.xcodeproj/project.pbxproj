@@ -16,6 +16,16 @@
 		BFF5B4CB2C1BA4C90078E960 /* ColorBlendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4CA2C1BA4C90078E960 /* ColorBlendView.swift */; };
 		BFF5B4CD2C1BA5010078E960 /* AnimateSymbolEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4CC2C1BA5010078E960 /* AnimateSymbolEffectView.swift */; };
 		BFF5B4CF2C1BA50A0078E960 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = BFF5B4CE2C1BA50A0078E960 /* File.txt */; };
+		BFF5B4D32C1BA6EA0078E960 /* OnScrollGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4D22C1BA6EA0078E960 /* OnScrollGeometryView.swift */; };
+		BFF5B4D52C1BA72D0078E960 /* ScrollPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4D42C1BA72D0078E960 /* ScrollPositionView.swift */; };
+		BFF5B4D72C1BA75E0078E960 /* ScrollPhaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4D62C1BA75E0078E960 /* ScrollPhaseView.swift */; };
+		BFF5B4DA2C1BA7C20078E960 /* IconNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4D92C1BA7C20078E960 /* IconNavigationView.swift */; };
+		BFF5B4DC2C1BA8250078E960 /* SheetNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4DB2C1BA8250078E960 /* SheetNavigationView.swift */; };
+		BFF5B4DE2C1BA84F0078E960 /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4DD2C1BA84F0078E960 /* TabNavigationView.swift */; };
+		BFF5B4E12C1BA8B50078E960 /* EvniromentEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4E02C1BA8B50078E960 /* EvniromentEntryView.swift */; };
+		BFF5B4E32C1BA8E70078E960 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4E22C1BA8E70078E960 /* GroupView.swift */; };
+		BFF5B4E52C1BA9620078E960 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4E42C1BA9620078E960 /* ContainerView.swift */; };
+		BFF5B4E72C1BA9A10078E960 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4E62C1BA9A10078E960 /* PreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,16 @@
 		BFF5B4CA2C1BA4C90078E960 /* ColorBlendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlendView.swift; sourceTree = "<group>"; };
 		BFF5B4CC2C1BA5010078E960 /* AnimateSymbolEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSymbolEffectView.swift; sourceTree = "<group>"; };
 		BFF5B4CE2C1BA50A0078E960 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		BFF5B4D22C1BA6EA0078E960 /* OnScrollGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnScrollGeometryView.swift; sourceTree = "<group>"; };
+		BFF5B4D42C1BA72D0078E960 /* ScrollPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPositionView.swift; sourceTree = "<group>"; };
+		BFF5B4D62C1BA75E0078E960 /* ScrollPhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPhaseView.swift; sourceTree = "<group>"; };
+		BFF5B4D92C1BA7C20078E960 /* IconNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconNavigationView.swift; sourceTree = "<group>"; };
+		BFF5B4DB2C1BA8250078E960 /* SheetNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetNavigationView.swift; sourceTree = "<group>"; };
+		BFF5B4DD2C1BA84F0078E960 /* TabNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationView.swift; sourceTree = "<group>"; };
+		BFF5B4E02C1BA8B50078E960 /* EvniromentEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvniromentEntryView.swift; sourceTree = "<group>"; };
+		BFF5B4E22C1BA8E70078E960 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		BFF5B4E42C1BA9620078E960 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		BFF5B4E62C1BA9A10078E960 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +88,9 @@
 			children = (
 				BFF5B49C2C1B9FD10078E960 /* SwiftUIHudsonApp.swift */,
 				BFF5B49E2C1B9FD10078E960 /* ContentView.swift */,
+				BFF5B4DF2C1BA89E0078E960 /* Part4 */,
+				BFF5B4D82C1BA7AA0078E960 /* Part3 */,
+				BFF5B4D12C1BA6430078E960 /* Part2 */,
 				BFF5B4D02C1BA5140078E960 /* Part1 */,
 				BFF5B4CE2C1BA50A0078E960 /* File.txt */,
 				BFF5B4A02C1B9FD20078E960 /* Assets.xcassets */,
@@ -110,6 +133,37 @@
 				BFF5B4CA2C1BA4C90078E960 /* ColorBlendView.swift */,
 			);
 			path = Part1;
+			sourceTree = "<group>";
+		};
+		BFF5B4D12C1BA6430078E960 /* Part2 */ = {
+			isa = PBXGroup;
+			children = (
+				BFF5B4D22C1BA6EA0078E960 /* OnScrollGeometryView.swift */,
+				BFF5B4D42C1BA72D0078E960 /* ScrollPositionView.swift */,
+				BFF5B4D62C1BA75E0078E960 /* ScrollPhaseView.swift */,
+			);
+			path = Part2;
+			sourceTree = "<group>";
+		};
+		BFF5B4D82C1BA7AA0078E960 /* Part3 */ = {
+			isa = PBXGroup;
+			children = (
+				BFF5B4DB2C1BA8250078E960 /* SheetNavigationView.swift */,
+				BFF5B4DD2C1BA84F0078E960 /* TabNavigationView.swift */,
+				BFF5B4D92C1BA7C20078E960 /* IconNavigationView.swift */,
+			);
+			path = Part3;
+			sourceTree = "<group>";
+		};
+		BFF5B4DF2C1BA89E0078E960 /* Part4 */ = {
+			isa = PBXGroup;
+			children = (
+				BFF5B4E02C1BA8B50078E960 /* EvniromentEntryView.swift */,
+				BFF5B4E22C1BA8E70078E960 /* GroupView.swift */,
+				BFF5B4E42C1BA9620078E960 /* ContainerView.swift */,
+				BFF5B4E62C1BA9A10078E960 /* PreviewView.swift */,
+			);
+			path = Part4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +238,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFF5B49F2C1B9FD10078E960 /* ContentView.swift in Sources */,
+				BFF5B4D32C1BA6EA0078E960 /* OnScrollGeometryView.swift in Sources */,
+				BFF5B4E32C1BA8E70078E960 /* GroupView.swift in Sources */,
+				BFF5B4E12C1BA8B50078E960 /* EvniromentEntryView.swift in Sources */,
+				BFF5B4D52C1BA72D0078E960 /* ScrollPositionView.swift in Sources */,
+				BFF5B4E52C1BA9620078E960 /* ContainerView.swift in Sources */,
+				BFF5B4DC2C1BA8250078E960 /* SheetNavigationView.swift in Sources */,
 				BFF5B4C92C1BA35E0078E960 /* TimeLineViewGradientView.swift in Sources */,
 				BFF5B49D2C1B9FD10078E960 /* SwiftUIHudsonApp.swift in Sources */,
+				BFF5B4E72C1BA9A10078E960 /* PreviewView.swift in Sources */,
+				BFF5B4DA2C1BA7C20078E960 /* IconNavigationView.swift in Sources */,
+				BFF5B4D72C1BA75E0078E960 /* ScrollPhaseView.swift in Sources */,
+				BFF5B4DE2C1BA84F0078E960 /* TabNavigationView.swift in Sources */,
 				BFF5B4C72C1BA2D10078E960 /* MeshGradientView.swift in Sources */,
 				BFF5B4CB2C1BA4C90078E960 /* ColorBlendView.swift in Sources */,
 				BFF5B4CD2C1BA5010078E960 /* AnimateSymbolEffectView.swift in Sources */,
