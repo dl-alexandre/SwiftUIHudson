@@ -3,7 +3,7 @@
 //  SwiftUIHudson
 //
 //  Created by Lena Mattea Stöxen on 13.06.24.
-//  
+///  Content offset needs to be set rarely, you don´t want high battery usage
 
 import SwiftUI
 

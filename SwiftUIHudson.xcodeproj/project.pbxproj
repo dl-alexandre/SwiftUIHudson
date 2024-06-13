@@ -15,7 +15,6 @@
 		BFF5B4C92C1BA35E0078E960 /* TimeLineViewGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4C82C1BA35E0078E960 /* TimeLineViewGradientView.swift */; };
 		BFF5B4CB2C1BA4C90078E960 /* ColorBlendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4CA2C1BA4C90078E960 /* ColorBlendView.swift */; };
 		BFF5B4CD2C1BA5010078E960 /* AnimateSymbolEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4CC2C1BA5010078E960 /* AnimateSymbolEffectView.swift */; };
-		BFF5B4CF2C1BA50A0078E960 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = BFF5B4CE2C1BA50A0078E960 /* File.txt */; };
 		BFF5B4D32C1BA6EA0078E960 /* OnScrollGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4D22C1BA6EA0078E960 /* OnScrollGeometryView.swift */; };
 		BFF5B4D52C1BA72D0078E960 /* ScrollPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4D42C1BA72D0078E960 /* ScrollPositionView.swift */; };
 		BFF5B4D72C1BA75E0078E960 /* ScrollPhaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4D62C1BA75E0078E960 /* ScrollPhaseView.swift */; };
@@ -41,7 +40,6 @@
 		BFF5B4C82C1BA35E0078E960 /* TimeLineViewGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewGradientView.swift; sourceTree = "<group>"; };
 		BFF5B4CA2C1BA4C90078E960 /* ColorBlendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlendView.swift; sourceTree = "<group>"; };
 		BFF5B4CC2C1BA5010078E960 /* AnimateSymbolEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSymbolEffectView.swift; sourceTree = "<group>"; };
-		BFF5B4CE2C1BA50A0078E960 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 		BFF5B4D22C1BA6EA0078E960 /* OnScrollGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnScrollGeometryView.swift; sourceTree = "<group>"; };
 		BFF5B4D42C1BA72D0078E960 /* ScrollPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPositionView.swift; sourceTree = "<group>"; };
 		BFF5B4D62C1BA75E0078E960 /* ScrollPhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPhaseView.swift; sourceTree = "<group>"; };
@@ -88,11 +86,10 @@
 			children = (
 				BFF5B49C2C1B9FD10078E960 /* SwiftUIHudsonApp.swift */,
 				BFF5B49E2C1B9FD10078E960 /* ContentView.swift */,
-				BFF5B4DF2C1BA89E0078E960 /* Part4 */,
-				BFF5B4D82C1BA7AA0078E960 /* Part3 */,
-				BFF5B4D12C1BA6430078E960 /* Part2 */,
-				BFF5B4D02C1BA5140078E960 /* Part1 */,
-				BFF5B4CE2C1BA50A0078E960 /* File.txt */,
+				BFF5B4DF2C1BA89E0078E960 /* New superpowers */,
+				BFF5B4D82C1BA7AA0078E960 /* New approaches to navigation and tabbing */,
+				BFF5B4D12C1BA6430078E960 /* Upgrades to scroll views */,
+				BFF5B4D02C1BA5140078E960 /* Colors, gradients, and animations */,
 				BFF5B4A02C1B9FD20078E960 /* Assets.xcassets */,
 				BFF5B4A22C1B9FD20078E960 /* Preview Content */,
 			);
@@ -124,7 +121,7 @@
 			path = SwiftUIHudsonUITests;
 			sourceTree = "<group>";
 		};
-		BFF5B4D02C1BA5140078E960 /* Part1 */ = {
+		BFF5B4D02C1BA5140078E960 /* Colors, gradients, and animations */ = {
 			isa = PBXGroup;
 			children = (
 				BFF5B4CC2C1BA5010078E960 /* AnimateSymbolEffectView.swift */,
@@ -132,30 +129,30 @@
 				BFF5B4C82C1BA35E0078E960 /* TimeLineViewGradientView.swift */,
 				BFF5B4CA2C1BA4C90078E960 /* ColorBlendView.swift */,
 			);
-			path = Part1;
+			path = "Colors, gradients, and animations";
 			sourceTree = "<group>";
 		};
-		BFF5B4D12C1BA6430078E960 /* Part2 */ = {
+		BFF5B4D12C1BA6430078E960 /* Upgrades to scroll views */ = {
 			isa = PBXGroup;
 			children = (
 				BFF5B4D22C1BA6EA0078E960 /* OnScrollGeometryView.swift */,
 				BFF5B4D42C1BA72D0078E960 /* ScrollPositionView.swift */,
 				BFF5B4D62C1BA75E0078E960 /* ScrollPhaseView.swift */,
 			);
-			path = Part2;
+			path = "Upgrades to scroll views";
 			sourceTree = "<group>";
 		};
-		BFF5B4D82C1BA7AA0078E960 /* Part3 */ = {
+		BFF5B4D82C1BA7AA0078E960 /* New approaches to navigation and tabbing */ = {
 			isa = PBXGroup;
 			children = (
 				BFF5B4DB2C1BA8250078E960 /* SheetNavigationView.swift */,
 				BFF5B4DD2C1BA84F0078E960 /* TabNavigationView.swift */,
 				BFF5B4D92C1BA7C20078E960 /* IconNavigationView.swift */,
 			);
-			path = Part3;
+			path = "New approaches to navigation and tabbing";
 			sourceTree = "<group>";
 		};
-		BFF5B4DF2C1BA89E0078E960 /* Part4 */ = {
+		BFF5B4DF2C1BA89E0078E960 /* New superpowers */ = {
 			isa = PBXGroup;
 			children = (
 				BFF5B4E02C1BA8B50078E960 /* EvniromentEntryView.swift */,
@@ -163,7 +160,7 @@
 				BFF5B4E42C1BA9620078E960 /* ContainerView.swift */,
 				BFF5B4E62C1BA9A10078E960 /* PreviewView.swift */,
 			);
-			path = Part4;
+			path = "New superpowers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +223,6 @@
 			files = (
 				BFF5B4A42C1B9FD20078E960 /* Preview Assets.xcassets in Resources */,
 				BFF5B4A12C1B9FD20078E960 /* Assets.xcassets in Resources */,
-				BFF5B4CF2C1BA50A0078E960 /* File.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
